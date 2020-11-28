@@ -13,7 +13,7 @@ Check [releases]()
 
 ### Known Bugs
  - 2.1 audio (2.0 works)
- - Bluethooth not workin with some devices (in my case my wireless mi mouse not working)
+ - Bluetooth not working with some devices (in my case my wireless mi mouse not working)
 
 ### Specs
  - Intel i7-7700HQ CPU
@@ -46,7 +46,7 @@ sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstall
 # Rename 
 sudo diskutil rename "Install macOS Big Sur" install_osx
 ```
-- Download [Clover Configrator](https://mackie100projects.altervista.org/download-clover-configurator/)
+- Download [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 - Use the app to mount USB EFI partition
 - Copy EFI folder from OpenCore USB File to Efi partition
 
@@ -62,7 +62,7 @@ sudo diskutil rename "Install macOS Big Sur" install_osx
 
 ## Post Installation
 
-- Use Clover Configrator to mount apfs EFI partition
+- Use Clover Configurator to mount apfs EFI partition
 - Copy EFI folder from OpenCore Post-install File to Efi partition
 
 
@@ -70,6 +70,11 @@ sudo diskutil rename "Install macOS Big Sur" install_osx
   - open terminal type *sodu* then drag install.sh from tools/comboJack_Installer then press 'Enter'
   - Rebuild the cache using `sudo kextcache -i /`
   - Reboot  
+  
+  
+**To Do List and Things to Consider**
+- Config file does not include SMBIOS parameters which is a must. One needs to provide own values. There are guides here and there. Your friend is google as always. For ROM adress you can use your builtin ethernet card MAC adress. MacSerial by Acidanthera is a good way to obtain proper serial and motherboard serial numbers. UUID can be generated with terminal command uuidgen. Make it produced at least five times to be sure it is unique enough. For working imessage and facetime all should be set in a sensible way and make sure that they are not used by someone else either hackintosh or real mac.
+- USBMap.kext is set to Macbookpro14,1. If you want to use a different SMBIOS you should also change the correspond model name in the info.plist inside the kext. Fingerprint device is closed to save battery and avoid long waiting before root access. it does not work anyway for now because apple does not allow to use third party ones.
 
 **Disable Hibernation**
 ```bash
@@ -81,7 +86,7 @@ sudo pmset -a autopoweroff 0
 sudo pmset -a powernap 0
 ```
 
-**4) Scrolling is choppy with third party mice**
+**Scrolling is choppy with third party mice**
  - Use this tool: https://mos.caldis.me/, works well
  - Scroll direction can also be set via this tool
 
