@@ -4,7 +4,7 @@
 ![macOS Big Sur - 11.0.1](./tools/ScreenShot.png)
 
 ### Download Required Files
-Check [releases]()
+Check [releases](https://github.com/maxis7567/Hackintosh-Dell-7567-OpenCore_Big-Sur/releases/tag/1.0.0)
 
 
 ### Notes
