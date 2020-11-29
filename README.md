@@ -28,6 +28,7 @@ Check [releases](https://github.com/maxis7567/Hackintosh-Dell-7567-OpenCore_Big-
    - Disable Legacy Option ROMs
    - Change SATA operation to AHCI (If already using windows, google how to)
    - Disable Secure Boot
+   - Disable SGX
 
 ## Creating macOS USB With MacOS (you can create usb installer in windows just google it)
 
