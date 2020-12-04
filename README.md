@@ -68,7 +68,7 @@ sudo diskutil rename "Install macOS Big Sur" install_osx
 
 
 **Configure ComboJack for Headphone Jack**
-  - open terminal type *sodu* then drag install.sh from tools/comboJack_Installer then press 'Enter'
+  - open terminal type *sudo* then drag install.sh from tools/comboJack_Installer then press 'Enter'
   - Rebuild the cache using `sudo kextcache -i /`
   - Reboot  
   
