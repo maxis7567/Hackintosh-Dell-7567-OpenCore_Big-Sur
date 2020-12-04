@@ -1011,7 +1011,7 @@
 				AAAAAA==
 				</data>
 				<key>prev-lang:kbd</key>
-				<string></string>
+				<string>en-US:0</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -1023,7 +1023,9 @@
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<array/>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-			<array/>
+                             <array>
+				<string>prev-lang: kbd &gt;&gt; Ensures</string>
+			     </array>
 		</dict>
 		<key>LegacyEnable</key>
 		<false/>
