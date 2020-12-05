@@ -793,7 +793,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -966,9 +966,9 @@
 				<key>boot-args</key>
 				<string>-v</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>AAAA</data>
 				<key>prev-lang:kbd</key>
-				<string></string>
+				<string>en-US:0</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -983,6 +983,7 @@
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
+				<string>prev-lang: kbd &gt;&gt; Ensure</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
