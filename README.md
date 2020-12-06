@@ -49,7 +49,7 @@ sudo diskutil rename "Install macOS Big Sur" install_osx
 ```
 - Download [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 - Use the app to mount USB EFI partition
-- Copy EFI folder from OpenCore USB File to Efi partition
+- Copy EFI from repo USB Efi partition
 
 
 ## Booting USB and Installing macOS
@@ -63,8 +63,8 @@ sudo diskutil rename "Install macOS Big Sur" install_osx
 
 ## Post Installation
 
-- Use Clover Configurator to mount apfs EFI partition
-- Copy EFI folder from OpenCore Post-install File to Efi partition
+- Use Clover Configurator to mount APFS EFI partition
+- Copy EFI from repo USB EFI partition
 
 
 **Configure ComboJack for Headphone Jack**
